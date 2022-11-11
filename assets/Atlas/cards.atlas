@@ -1,27 +1,195 @@
 
-cards.jpg
-size: 2048, 2048
+cards.png
+size: 1024, 1024
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-481181541439319283
+Card1
   rotate: false
-  xy: 1, 1
-  size: 535, 535
-  orig: 535, 535
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
   offset: 0, 0
   index: -1
-481181541439341504
+
+cards2.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card2
   rotate: false
-  xy: 1, 538
-  size: 1080, 1063
-  orig: 1080, 1063
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
   offset: 0, 0
   index: -1
-850617448359177261
+
+cards3.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card3
   rotate: false
-  xy: 1083, 1260
-  size: 344, 341
-  orig: 344, 341
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards4.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card4
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards5.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card5
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards6.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card6
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards7.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card7
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards8.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card8
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards9.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card9
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards10.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card10
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards11.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card11
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards12.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card12
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards13.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+Card13
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards14.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+CardCover
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
+  offset: 0, 0
+  index: -1
+
+cards15.png
+size: 1024, 1024
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+CardJoker
+  rotate: false
+  xy: 2, 2
+  size: 672, 1002
+  orig: 672, 1002
   offset: 0, 0
   index: -1

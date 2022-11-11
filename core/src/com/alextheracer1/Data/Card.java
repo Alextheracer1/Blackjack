@@ -1,18 +1,19 @@
 package com.alextheracer1.Data;
 
 
-import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Sprite;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion;
 
 public class Card {
 
   private String name;
   private int cardPoints;
-  private Texture cardTexture;
+  private Sprite cardSprite;
 
-  public Card(String name, int cardPoints, Texture cardTexture){
+  public Card(String name, int cardPoints, Sprite cardSprite){
     this.name = name;
     this.cardPoints = cardPoints;
-    this.cardTexture = cardTexture;
+    this.cardSprite = cardSprite;
   }
 
   public String getName() {
@@ -23,7 +24,7 @@ public class Card {
     return cardPoints;
   }
 
-  public Texture getCardImage() {
-    return cardTexture;
+  public Sprite getCardSprite() {
+    return cardSprite;
   }
 }

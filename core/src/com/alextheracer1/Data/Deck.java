@@ -1,26 +1,44 @@
 package com.alextheracer1.Data;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import java.util.ArrayList;
 
 public class Deck {
 
   private ArrayList<Card> deck = new ArrayList<>();
 
-  public void fillDeck() {
+  public void fillDeck(TextureAtlas atlas) {
 
-    for (int i = 0, j = 1; i < 2; i++) {
+    Card ass = new Card("Ass", 11, atlas.createSprite("Card1"));
+    deck.add(ass);
 
-      Card card = new Card("Card" + j, j, new Texture(Gdx.files.internal("Cards/card" + j + ".png")));
+    for (int i = 0, j = 2; i < 8; i++) {
+
+      Card card = new Card("Card" + j, j, atlas.createSprite("Card" + j));
       deck.add(card);
       j++;
     }
 
+    Card king = new Card("King", 10, atlas.createSprite("Card13"));
+    Card queen = new Card("Queen", 10, atlas.createSprite("Card2"));
+    Card junior = new Card("Junior", 10, atlas.createSprite("Card11"));
+
+    deck.add(king);
+    deck.add(queen);
+    deck.add(junior);
+
     for (int i = 0; i <= deck.size() - 1; i++) {
-      System.out.println(deck.get(i).getCardImage().getTextureData());
+      System.out.println(deck.get(i).getName());
+      System.out.print(" Points: " + deck.get(i).getCardPoints() + "\n");
     }
 
+  }
+
+  public ArrayList<Card> getDeck() {
+    return deck;
   }
 
 }
