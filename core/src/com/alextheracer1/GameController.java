@@ -1,35 +1,35 @@
 package com.alextheracer1;
 
 import com.alextheracer1.Data.Deck;
+import com.alextheracer1.Data.Player;
 import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.audio.Music;
-import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.scenes.scene2d.ui.Button;
+import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
+import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
+import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ScreenUtils;
-import com.badlogic.gdx.utils.TimeUtils;
-
-import java.awt.TextArea;
-import java.util.Iterator;
 
 public class GameController extends ApplicationAdapter {
 
-  private TextArea textArea;
 
   private Sprite cardImage;
+  private Sprite cardBackImage;
 
   private Music backgroundMusic;
+
+  Deck deck = new Deck();
+
+  Player player;
+  Player dealer;
 
   private Rectangle card;
   private OrthographicCamera camera;
@@ -39,11 +39,25 @@ public class GameController extends ApplicationAdapter {
 
   private TextureAtlas atlas;
 
+  private Button button;
+
+  ImageButton drawCardButton;
+
+/*
+  private void spawnCards() {
+    cards = new Array<>();
+    for (int i = 0; i < 20; i++) {
+      Rectangle card = new Rectangle();
+      card.setWidth(MathUtils.random(100, 500));
+
+    }
+  }
+
+ */
+
   @Override
   public void create() {
-    // load the images for the droplet and the bucket, 64x64 pixels each
-    //dropImage = new Texture(Gdx.files.internal("droplet.png"));
-    //bucketImage = new Texture(Gdx.files.internal("bucket.png"));
+
 
     AssetManager manager = new AssetManager();
     manager.load("assets/Atlas/cards.atlas", TextureAtlas.class);
@@ -51,13 +65,21 @@ public class GameController extends ApplicationAdapter {
 
     atlas = manager.get("assets/Atlas/cards.atlas", TextureAtlas.class);
 
+    //spawnCards();
 
-    Deck deck = new Deck();
     deck.fillDeck(atlas);
 
+    player = new Player("Player1", 900, deck);
+    dealer = new Player("Dealer", 999999999, deck);
+
+    Drawable drawable = new TextureRegionDrawable(new TextureRegion(atlas.createSprite("CardCover")));
+    drawCardButton = new ImageButton(drawable);
 
 
-    cardImage = atlas.createSprite("Card2");
+    cardImage = deck.getCard(2).getCardSprite();
+
+
+    cardBackImage = atlas.createSprite("CardCover");
 
 
 
@@ -78,8 +100,8 @@ public class GameController extends ApplicationAdapter {
     card = new Rectangle();
     card.x = 1280 / 2 - 64 / 2;
     card.y = 20;
-    card.width = 250;
-    card.height = 250;
+    card.width = 100;
+    card.height = 150;
   }
 
   @Override
@@ -95,6 +117,8 @@ public class GameController extends ApplicationAdapter {
 
     batch.begin();
     batch.draw(cardImage, card.x, card.y, card.width, card.height);
+    batch.draw(cardImage, card.x, 600, card.width, card.height);
+    batch.draw(cardBackImage, 1000, card.y, card.width, card.height);
     batch.end();
 
 

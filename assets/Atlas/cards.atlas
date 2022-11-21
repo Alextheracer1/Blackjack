@@ -6,190 +6,371 @@ filter: Nearest, Nearest
 repeat: none
 Card1
   rotate: false
-  xy: 2, 2
+  xy: 676, 911
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card10
+  rotate: false
+  xy: 907, 911
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card11
+  rotate: false
+  xy: 676, 507
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card12
+  rotate: false
+  xy: 753, 608
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card13
+  rotate: false
+  xy: 830, 709
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card14
+  rotate: false
+  xy: 907, 810
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card15
+  rotate: false
+  xy: 676, 406
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card16
+  rotate: false
+  xy: 753, 507
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card17
+  rotate: false
+  xy: 830, 608
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card18
+  rotate: false
+  xy: 907, 709
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card19
+  rotate: false
+  xy: 676, 305
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card2
+  rotate: false
+  xy: 676, 810
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card20
+  rotate: false
+  xy: 753, 406
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card21
+  rotate: false
+  xy: 830, 507
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card22
+  rotate: false
+  xy: 907, 608
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card23
+  rotate: false
+  xy: 676, 204
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card24
+  rotate: false
+  xy: 753, 305
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card25
+  rotate: false
+  xy: 830, 406
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card26
+  rotate: false
+  xy: 907, 507
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card27
+  rotate: false
+  xy: 676, 103
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card28
+  rotate: false
+  xy: 753, 204
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card29
+  rotate: false
+  xy: 830, 305
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card3
+  rotate: false
+  xy: 753, 911
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card30
+  rotate: false
+  xy: 907, 406
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card31
+  rotate: false
+  xy: 753, 103
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card32
+  rotate: false
+  xy: 830, 204
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card33
+  rotate: false
+  xy: 907, 305
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card34
+  rotate: false
+  xy: 830, 103
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card35
+  rotate: false
+  xy: 907, 204
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card36
+  rotate: false
+  xy: 907, 103
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card37
+  rotate: false
+  xy: 676, 2
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card38
+  rotate: false
+  xy: 753, 2
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card39
+  rotate: false
+  xy: 830, 2
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card4
+  rotate: false
+  xy: 676, 709
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card41
+  rotate: false
+  xy: 907, 2
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card5
+  rotate: false
+  xy: 753, 810
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card6
+  rotate: false
+  xy: 830, 911
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card7
+  rotate: false
+  xy: 676, 608
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card8
+  rotate: false
+  xy: 753, 709
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+Card9
+  rotate: false
+  xy: 830, 810
+  size: 75, 99
+  orig: 75, 99
+  offset: 0, 0
+  index: -1
+CardCover
+  rotate: false
+  xy: 2, 8
   size: 672, 1002
   orig: 672, 1002
   offset: 0, 0
   index: -1
 
 cards2.png
-size: 1024, 1024
+size: 1024, 128
 format: RGBA8888
 filter: Nearest, Nearest
 repeat: none
-Card2
+Card42
   rotate: false
   xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards3.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card3
+Card43
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 79, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards4.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card4
+Card44
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 156, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards5.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card5
+Card45
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 233, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards6.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card6
+Card46
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 310, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards7.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card7
+Card47
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 387, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards8.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card8
+Card48
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 464, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards9.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card9
+Card49
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 541, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards10.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card10
+Card50
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 618, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards11.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card11
+Card51
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 695, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1
-
-cards12.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card12
+Card52
   rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
-  offset: 0, 0
-  index: -1
-
-cards13.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-Card13
-  rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
-  offset: 0, 0
-  index: -1
-
-cards14.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-CardCover
-  rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
-  offset: 0, 0
-  index: -1
-
-cards15.png
-size: 1024, 1024
-format: RGBA8888
-filter: Nearest, Nearest
-repeat: none
-CardJoker
-  rotate: false
-  xy: 2, 2
-  size: 672, 1002
-  orig: 672, 1002
+  xy: 772, 2
+  size: 75, 99
+  orig: 75, 99
   offset: 0, 0
   index: -1

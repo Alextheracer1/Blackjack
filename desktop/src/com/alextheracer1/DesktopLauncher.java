@@ -12,7 +12,7 @@ public class DesktopLauncher {
 		config.setWindowedMode(1280, 720);
 		config.useVsync(true);
 		config.setForegroundFPS(60);
-		TexturePacker.process("assets/Cards", "assets/Atlas", "cards");
+		TexturePacker.process("assets/Cards/FullDeck/", "assets/Atlas", "cards");
 		new Lwjgl3Application(new GameController(), config);
 	}
 }

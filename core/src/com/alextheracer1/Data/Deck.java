@@ -1,5 +1,7 @@
 package com.alextheracer1.Data;
 
+import static com.badlogic.gdx.math.MathUtils.random;
+
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
@@ -8,11 +10,11 @@ import java.util.ArrayList;
 
 public class Deck {
 
-  private ArrayList<Card> deck = new ArrayList<>();
+  private final ArrayList<Card> deck = new ArrayList<>();
 
   public void fillDeck(TextureAtlas atlas) {
 
-    Card ass = new Card("Ass", 11, atlas.createSprite("Card1"));
+    Card ass = new Card("Ass", 1, atlas.createSprite("Card1"));
     deck.add(ass);
 
     for (int i = 0, j = 2; i < 8; i++) {
@@ -37,8 +39,13 @@ public class Deck {
 
   }
 
-  public ArrayList<Card> getDeck() {
-    return deck;
+  public void shuffleDeck(Deck deck) {
+
+  }
+
+
+  public Card getCard(int index) {
+    return deck.get(index);
   }
 
 }
